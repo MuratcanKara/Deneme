@@ -31,7 +31,13 @@ namespace Loops
             {
                 Console.WriteLine(kurs);
             }
-
+            Console.WriteLine("--------------------------------------------");
+            int k = 0;
+            while (k < courses.Length)
+            {
+                Console.WriteLine(courses[k]);
+                k++;
+            }
 
         }
     }
